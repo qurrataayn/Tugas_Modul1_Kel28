@@ -161,7 +161,3 @@ const mahasiswa = [
   {nama_lengkap:"Ariel Jones Dekock",nama_panggilan:"Ariel",nomor_telepon:"085947590609",id_line:"habispulsa",tanggal_lahir:"06/08/2001",nim:21120119140148,email:"arieljns1@gmail.com",hobi:"olahraga"}
 ];
 
-const filterMahasiswa = mahasiswa.filter(user => {
-	return user.nim === "21120119140123";
-})
-console.log("mod1_kel28()", filterMahasiswa);
